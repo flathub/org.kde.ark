@@ -186,7 +186,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/ark-22.04.3.tar.xz",
-                    "sha256": "00e8efdbcb1b62f804860581c06e744f0f56a16769938638e34efd3931485ef2"
+                    "sha256": "00e8efdbcb1b62f804860581c06e744f0f56a16769938638e34efd3931485ef2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ark-$version.tar.xz"
+                    }
                 }
             ]
         }
