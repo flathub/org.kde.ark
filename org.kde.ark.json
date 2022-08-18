@@ -54,7 +54,9 @@
         },
         {
             "name": "libarchive",
-            "config-opts": ["--without-xml2"],
+            "config-opts": [
+                "--without-xml2"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -171,11 +173,11 @@
                 },
                 {
                     "type": "patch",
-                    "path" : "p7zip-norar.patch"
+                    "path": "p7zip-norar.patch"
                 },
                 {
                     "type": "patch",
-                    "path" : "p7zip-archlinux-reverts_issue_112.patch"
+                    "path": "p7zip-archlinux-reverts_issue_112.patch"
                 }
             ]
         },
@@ -185,8 +187,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/ark-22.04.3.tar.xz",
-                    "sha256": "00e8efdbcb1b62f804860581c06e744f0f56a16769938638e34efd3931485ef2",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/ark-22.08.0.tar.xz",
+                    "sha256": "d9dd766b7c3243edbed29df105b3e198da16e76063576f4eeed9867f0e17e847",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
