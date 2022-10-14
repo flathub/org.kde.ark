@@ -31,8 +31,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/facebook/zstd/releases/download/v1.5.0/zstd-1.5.0.tar.gz",
-                    "sha256": "5194fbfa781fcf45b98c5e849651aa7b3b0a008c6b72d4a0db760f3002291e94"
+                    "url": "https://github.com/facebook/zstd/releases/download/v1.5.2/zstd-1.5.2.tar.gz",
+                    "sha256": "7c42d56fac126929a6a85dbc73ff1db2411d04f104fae9bdea51305663a83fd0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 12083,
+                        "stable-only": true,
+                        "url-template": "https://github.com/facebook/zstd/releases/download/v$version/zstd-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -47,8 +53,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/lz4/lz4/archive/v1.9.3.tar.gz",
-                    "sha256": "030644df4611007ff7dc962d981f390361e6c97a34e5cbc393ddfbe019ffe2c1"
+                    "url": "https://github.com/lz4/lz4/archive/v1.9.4.tar.gz",
+                    "sha256": "0b0e3aa07c8c063ddf40b082bdf7e37a1562bda40a0ff5272957f3e987e0e54b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1865,
+                        "stable-only": true,
+                        "url-template": "https://github.com/lz4/lz4/archive/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -60,8 +72,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libarchive.org/downloads/libarchive-3.6.0.tar.xz",
-                    "sha256": "df283917799cb88659a5b33c0a598f04352d61936abcd8a48fe7b64e74950de7"
+                    "url": "https://www.libarchive.org/downloads/libarchive-3.6.1.tar.gz",
+                    "sha256": "c676146577d989189940f1959d9e3980d28513d74eedfbc6b7f15ea45fe54ee2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1558,
+                        "stable-only": true,
+                        "url-template": "https://www.libarchive.org/downloads/libarchive-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -71,8 +89,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://libzip.org/download/libzip-1.8.0.tar.xz",
-                    "sha256": "f0763bda24ba947e80430be787c4b068d8b6aa6027a26a19923f0acfa3dac97e"
+                    "url": "https://libzip.org/download/libzip-1.9.2.tar.xz",
+                    "sha256": "c93e9852b7b2dc931197831438fee5295976ee0ba24f8524a8907be5c2ba5937",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 10649,
+                        "stable-only": true,
+                        "url-template": "https://libzip.org/download/libzip-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -82,7 +106,13 @@
                 {
                     "type": "archive",
                     "url": "https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz",
-                    "sha256": "c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072"
+                    "sha256": "c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1868,
+                        "stable-only": true,
+                        "url-template": "https://www.oberhumer.com/opensource/lzo/download/lzo-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -92,7 +122,13 @@
                 {
                     "type": "archive",
                     "url": "https://www.lzop.org/download/lzop-1.04.tar.gz",
-                    "sha256": "7e72b62a8a60aff5200a047eea0773a8fb205caf7acbe1774d95147f305a2f41"
+                    "sha256": "7e72b62a8a60aff5200a047eea0773a8fb205caf7acbe1774d95147f305a2f41",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 7486,
+                        "stable-only": true,
+                        "url-template": "https://www.lzop.org/download/lzop-$version.tar.gz"
+                    }
                 }
             ]
         },
