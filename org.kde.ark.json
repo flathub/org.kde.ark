@@ -168,7 +168,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/gnustep/tools-make/archive/make-2_9_0.tar.gz",
-                    "sha256": "f7c69bea7f26ca5d4ce6ad82fbe94d2405cf238d652ea608fe387a70a5e0232c"
+                    "sha256": "f7c69bea7f26ca5d4ce6ad82fbe94d2405cf238d652ea608fe387a70a5e0232c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1220,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/tools-make/archive/make-${major}_${minor}_$patch.tar.gz"
+                    }
                 }
             ]
         },
@@ -184,7 +190,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/gnustep/libs-base/releases/download/base-1_28_0/gnustep-base-1.28.0.tar.gz",
-                    "sha256": "c7d7c6e64ac5f5d0a4d5c4369170fc24ed503209e91935eb0e2979d1601039ed"
+                    "sha256": "c7d7c6e64ac5f5d0a4d5c4369170fc24ed503209e91935eb0e2979d1601039ed",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 9105,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-${major}_${minor}_$patch/gnustep-base-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -214,7 +226,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/jinfeihan57/p7zip/archive/v17.04/p7zip-v17.04.tar.gz",
-                    "sha256": "ea029a2e21d2d6ad0a156f6679bd66836204aa78148a4c5e498fe682e77127ef"
+                    "sha256": "ea029a2e21d2d6ad0a156f6679bd66836204aa78148a4c5e498fe682e77127ef",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 2583,
+                        "stable-only": true,
+                        "url-template": "https://github.com/jinfeihan57/p7zip/archive/v$version/p7zip-v$version.tar.gz"
+                    }
                 },
                 {
                     "type": "shell",
