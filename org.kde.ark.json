@@ -1,7 +1,7 @@
 {
     "id": "org.kde.ark",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "ark",
     "rename-icon": "ark",
@@ -90,7 +90,7 @@
                 {
                     "type": "archive",
                     "url": "https://libzip.org/download/libzip-1.10.1.tar.xz",
-                    "sha256": "6d9ad40d2f9cd204c9e28c8a406e46289c0e887533c5174f4a38cf504fe1870e",
+                    "sha256": "dc3c8d5b4c8bbd09626864f6bcf93de701540f761d76b85d7c7d710f4bd90318",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 10649,
@@ -229,28 +229,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jinfeihan57/p7zip/archive/v17.04/p7zip-v17.04.tar.gz",
-                    "sha256": "ea029a2e21d2d6ad0a156f6679bd66836204aa78148a4c5e498fe682e77127ef",
+                    "url": "https://github.com/p7zip-project/p7zip/archive/v17.05/p7zip-v17.05.tar.gz",
+                    "sha256": "d2788f892571058c08d27095c22154579dfefb807ebe357d145ab2ddddefb1a6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 2583,
                         "stable-only": true,
-                        "url-template": "https://github.com/jinfeihan57/p7zip/archive/v$version/p7zip-v$version.tar.gz"
+                        "url-template": "https://github.com/p7zip-project/p7zip/archive/v$version/p7zip-v$version.tar.gz"
                     }
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "sed -i 's|/usr/local|/app|g' makefile.common"
-                    ]
-                },
-                {
-                    "type": "patch",
-                    "path": "p7zip-norar.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "p7zip-archlinux-reverts_issue_112.patch"
                 }
             ]
         },
@@ -260,8 +246,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/ark-23.08.5.tar.xz",
-                    "sha256": "6081c564e2d4e25113691483d2cf3843461a9db6c726e1e547fa9a9697aecfeb",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/ark-24.02.0.tar.xz",
+                    "sha256": "ff11fe9352d8aa80207a21f3e024e18b4035cbbe689abaad20a91fe36c455469",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
