@@ -220,14 +220,31 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/p7zip-project/p7zip/archive/v17.05/p7zip-v17.05.tar.gz",
-                    "sha256": "d2788f892571058c08d27095c22154579dfefb807ebe357d145ab2ddddefb1a6",
+                    "url": "https://github.com/p7zip-project/p7zip/archive/v17.04/p7zip-v17.04.tar.gz",
+                    "sha256": "ea029a2e21d2d6ad0a156f6679bd66836204aa78148a4c5e498fe682e77127ef",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 2583,
                         "stable-only": true,
-                        "url-template": "https://github.com/p7zip-project/p7zip/archive/v$version/p7zip-v$version.tar.gz"
+                        "url-template": "https://github.com/p7zip-project/p7zip/archive/v$version/p7zip-v$version.tar.gz",
+                        "versions": {
+                            "<": "17.05"
+                        }
                     }
+                },
+                {
+                    "type": "shell",
+                    "commands": [
+                        "sed -i 's|/usr/local|/app|g' makefile.common"
+                    ]
+                },
+                {
+                    "type": "patch",
+                    "path": "p7zip-norar.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "p7zip-archlinux-reverts_issue_112.patch"
                 }
             ]
         },
