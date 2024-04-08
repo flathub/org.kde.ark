@@ -72,8 +72,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libarchive.org/downloads/libarchive-3.7.2.tar.gz",
-                    "sha256": "df404eb7222cf30b4f8f93828677890a2986b66ff8bf39dac32a804e96ddf104",
+                    "url": "https://www.libarchive.org/downloads/libarchive-3.7.3.tar.gz",
+                    "sha256": "f27a97bc22ceb996e72502df47dc19f99f9a0f09181ae909f09f3c9eb17b67e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1558,
