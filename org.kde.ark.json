@@ -250,8 +250,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/ark-24.08.1.tar.xz",
-                    "sha256": "09a98a344e6debf939ff2c3973d67c7794c15f22faff7b8bbafba3d1e3aa5d8d",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/ark-24.08.2.tar.xz",
+                    "sha256": "7fdf074d985bb9f8c51d9fc187580f91e03ea7188c8ec5360bd31bd5dc15b83c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
