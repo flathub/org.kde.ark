@@ -151,6 +151,9 @@
         {
             "name": "unarchiver",
             "buildsystem": "simple",
+            "build-options": {
+                "cflags": "-Wno-int-conversion"
+            },
             "build-commands": [
                 "sed -s -i 's#/usr/include/GNUstep#/app/include#g' */Makefile.linux",
                 "make -C XADMaster -j $FLATPAK_BUILDER_N_JOBS -f Makefile.linux",
