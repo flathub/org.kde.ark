@@ -22,25 +22,6 @@
     ],
     "modules": [
         {
-            "name": "libarchive",
-            "config-opts": [
-                "--without-xml2"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.libarchive.org/downloads/libarchive-3.7.7.tar.gz",
-                    "sha256": "4cc540a3e9a1eebdefa1045d2e4184831100667e6d7d5b315bb1cbc951f8ddff",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1558,
-                        "stable-only": true,
-                        "url-template": "https://www.libarchive.org/downloads/libarchive-$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "libzip",
             "buildsystem": "cmake-ninja",
             "sources": [
