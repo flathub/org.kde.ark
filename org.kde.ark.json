@@ -162,29 +162,27 @@
             ]
         },
         {
-	    "name": "7zip",
-	    "buildsystem": "simple",
-	    "subdir": "CPP/7zip/Bundles/Alone2",
-	    "build-commands": [
-		"make -j $FLATPAK_BUILDER_N_JOBS -f makefile.gcc",
-		"install -D ./_o/7zz -t /app/bin",
-		"ln -s /app/bin/7zz /app/bin/7za",
-		"ln -s /app/bin/7zz /app/bin/7z"
-	    ],
-	    "sources": [
-		{
-		    "type": "git",
-		    "url": "https://github.com/ip7z/7zip.git",
-		    "tag": "24.09",
-		    "commit": "e5431fa6f5505e385c6f9367260717e9c47dc2ee",
-		    "strip-components": 0,
-		    "x-checker-data": {
-		        "type": "git",
-		        "tag-pattern": "^([\\d.]+)$"
-		    }
-		}
-	    ]
-	},
+            "name": "7zip",
+            "buildsystem": "simple",
+            "subdir": "CPP/7zip/Bundles/Alone7z",
+            "build-commands": [
+                "make -j $FLATPAK_BUILDER_N_JOBS -f makefile.gcc",
+                "install -D ./_o/7zr -t /app/bin",
+                "ln -s /app/bin/7zr /app/bin/7z"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ip7z/7zip/archive/refs/tags/24.09.tar.gz",
+                    "sha256": "e4757b307925227724a2044651193664ba3d04e9ac13b8e631f1667896014bbf",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 372314,
+                        "url-template": "https://github.com/ip7z/7zip/archive/refs/tags/$version.tar.gz"
+                    }
+                }
+            ]
+        },
         {
             "name": "ark",
             "buildsystem": "cmake-ninja",
