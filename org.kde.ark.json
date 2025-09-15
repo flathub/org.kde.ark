@@ -16,9 +16,11 @@
         "*.a",
         "*.la",
         "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
         "/share/doc",
-        "/share/man"
+        "/share/man",
+        "/share/qlogging-categories6"
     ],
     "modules": [
         {
@@ -186,6 +188,10 @@
         {
             "name": "ark",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
