@@ -126,6 +126,10 @@
                         "stable-only": true,
                         "url-template": "https://github.com/gnustep/libs-base/archive/refs/tags/base-$version.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "gnustep-base-fix_GCC15.patch"
                 }
             ]
         },
