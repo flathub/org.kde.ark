@@ -199,8 +199,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/ark-25.12.0.tar.xz",
-                    "sha256": "a1107e01049f345782c20b2abae3171ecb6e963bb02ffbb814e0357b024bb5c0",
+                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/ark-25.12.1.tar.xz",
+                    "sha256": "e9961ffdfa908959cec65d443572cb8ccedaa8d62651f2a5f6d72cf95aff27fe",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
