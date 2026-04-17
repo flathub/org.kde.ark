@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ckolivas/lrzip/archive/v0.651.tar.gz",
-                    "sha256": "f4c84de778a059123040681fd47c17565fcc4fec0ccc68fcf32d97fad16cd892",
+                    "url": "https://github.com/ckolivas/lrzip/archive/v0.660.tar.gz",
+                    "sha256": "fd2cb18fc166e565a23f3415306d71a0f9151e0f1d7016d9a2c7eb038cd3c159",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1842,
@@ -183,8 +183,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/ark-25.12.3.tar.xz",
-                    "sha256": "81f27ef08e216f3cedce10a2b2e2c74ba27735219d8f149c9d1399f7565e028b",
+                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/ark-26.04.0.tar.xz",
+                    "sha256": "4ed65adb552f2aa981b1ff08f5ad5989ee4882c0e69be04977cbf42870b58f7c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
