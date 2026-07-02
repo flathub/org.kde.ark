@@ -163,8 +163,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ip7z/7zip/archive/refs/tags/26.01.tar.gz",
-                    "sha256": "f4212b508641b3584f7089ab67bc0aba028c631f049b4dd603ff07853e72e749",
+                    "url": "https://github.com/ip7z/7zip/archive/refs/tags/26.02.tar.gz",
+                    "sha256": "7e5600ad0b21918bc41803bd84d0c2967e097fb7fbaa2e7aeb90beeb1121e54b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 372314,
@@ -183,8 +183,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/ark-26.04.2.tar.xz",
-                    "sha256": "b81c4055486c99f4f21ff228bf12485bc73e8e6b0064edee1043a11ad5d1e555",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/ark-26.04.3.tar.xz",
+                    "sha256": "8018fec69668aac35e5ab7ce4e51ce04de6ab7f56a3996322b016f41c31d5a01",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
